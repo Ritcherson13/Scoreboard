@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btns {
+    margin: 10px;
+}
+
+#home-el, #away-el {
+    width: 100px;
+    height: 75px;
+    background-color: #080001;
+    color: #F94F6D;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+}
+
+#new-game-btn {
+    background-color: lightblue;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    padding: 10px;
+    border: black solid;
+    border-radius: 10%;
+}
+
+h3 {
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Cursed Timer ULiL';
+}
