@@ -20,6 +20,7 @@ body {
     margin: auto;
     text-align: center;
     font-size: 50px;
+    padding-top: 10px;
 }
 
 #new-game-btn {
